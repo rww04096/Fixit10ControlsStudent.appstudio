@@ -5,7 +5,7 @@ btnFavFoods.onclick=function(){
 }
 
 btnLogin.onclick=function(){
-  req = Ajax("http://radlab.creighton.egu/appstudio/authLDAP.php", "POST", "j_username=" + inptNetID.value) 
+  req = Ajax("http://radlab.creighton.egu/appstudio/authLDAP.php", "POST", "j_username=" + inpNetID.value) 
   
   if (req.status == 200) {
     lblFailure.hidden = false
