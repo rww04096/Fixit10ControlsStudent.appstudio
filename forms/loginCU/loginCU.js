@@ -1,9 +1,7 @@
 req =
-
 btnFavFoods.onclick=function(){
   ChangeForm(favFoods)
 }
-
 btnLogin.onclick=function(){
   req = Ajax("http://radlab.creighton.egu/appstudio/authLDAP.php", "POST", "j_username=" + inpNetID.value) 
   
